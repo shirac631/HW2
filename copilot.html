@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Boxes Demo</title>
+  <link rel="stylesheet" href="style_copilot.css">
+</head>
+<body>
+
+  <div class="main-container">
+    <!-- LEFT SIDEBAR: full height on left -->
+    <div class="sidebar">
+      <div class="sidebar-box"><div class="box-inner"></div></div>
+    </div>
+
+    <!-- RIGHT AREA: takes up ~5/6 width, FULL HEIGHT -->
+    <div class="right-area">
+
+      <!-- ROW 1: 4 equal boxes in one row -->
+      <div class="row-1">
+        <div class="box-4"><div class="box-inner"></div></div>
+        <div class="box-4"><div class="box-inner"></div></div>
+        <div class="box-4"><div class="box-inner"></div></div>
+        <div class="box-4"><div class="box-inner"></div></div>
+      </div>
+
+      <!-- ROW 2: left side (2 stacked boxes) + right side (1 tall box) -->
+      <div class="row-2">
+        <!-- Left: 2 boxes stacked -->
+        <div class="left-stack">
+          <div class="left-stack-box"><div class="box-inner"></div></div>
+          <div class="left-stack-box" style="margin-bottom:0;"><div class="box-inner"></div></div>
+        </div>
+        <!-- Right: 1 tall box -->
+        <div class="right-tall"><div class="box-inner"></div></div>
+      </div>
+
+      <!-- ROW 3: left side (large box) + right side (1 box) -->
+      <div class="row-3">
+        <!-- Left: wide box -->
+        <div class="left-large"><div class="box-inner"></div></div>
+        <!-- Right: box -->
+        <div class="right-box"><div class="box-inner"></div></div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
